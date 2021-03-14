@@ -16,11 +16,11 @@ In this day and age, the stock market is becoming more and more important to the
 ### App Evaluation
 
 - **Category:** Finances
-- **Mobile:** Allows for ease of use without a computer
-- **Story:** Stocks are becoming more and more important, so there's a personal interest in becoming more savvy with trading and the market
-- **Market:** Fairly large market, from casual users to intermediate traders
-- **Habit:** The need to check prices and constantly monitor stocks can form a very strong habit
-- **Scope:** Fairly small scope, just requires pulling info from an API and comparison
+- **Mobile:** This app would be just as viable on computer as it is on mobile, however the mobile format would allow for much more ease of use in day-to-day interactions with the app.
+- **Story:** Stocks are becoming more and more important, so this app would help users analyze which platform would give them the best bang for their buck when buying stocks.
+- **Market:** There is a pretty wide user base for this app, since its function is something that could be helpful to people with little/no experience to intermediate buyers.
+- **Habit:** While the app itself doesn't provide any large incentive or draw for using it round the clock, it does have the ability to draw use, simply from the fact that users will want to check the prices on it often to check whether or the lowest net price has changed.
+- **Scope:** The scope is fairly small, as the main function is aggregating data and displaying it in a easy to digest format for the user. The bulk of the work is going to be found in retrieving, parsing, and displaying this data, alongside UI and UX elements.
 
 ## Product Spec
 
