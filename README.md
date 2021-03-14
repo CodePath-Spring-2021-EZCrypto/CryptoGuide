@@ -14,7 +14,7 @@ Original App Design Project - README Template
 In this day and age, the stock market is becoming more and more important to the everyday person. Investing smartly can be costly and time-consuming, but EZStocks eliminates these worries! EZStocks is a net-cost stock comparison app, providing you with easy to comprehend information about which stock reseller provides the best price for the stocks you're searching for.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
+
 - **Category:** Finances
 - **Mobile:** Allows for ease of use without a computer
 - **Story:** Stocks are becoming more and more important, so there's a personal interest in becoming more savvy with trading and the market
