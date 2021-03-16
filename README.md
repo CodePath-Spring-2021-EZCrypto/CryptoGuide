@@ -33,33 +33,30 @@ In this day and age, the stock market is becoming more and more important to the
 * User can track their favorite stocks
 * User can view a stream of "hot" stocks that refreshes
 * User can use a navigation bar to switch views
-* User can view the lowest net price for a stock between stock resellers (i.e. Robinhood, Acorns)
 
 **Optional Nice-to-have Stories**
 
 * User can create an account and their data will persist when logging in on another phone
-* User can click on a stock and view more detailed information about it and its other prices
-* User can open the related trading app from the app
-   * If the app is not installed, take the user to the Google Play Store
+* User can click on a crypto and view more detailed information about it
 
 ### 2. Screen Archetypes
 
 * Stream
-   * User can view various stocks and their lowest price
-   * User can add specific stocks to a list of favorites
+   * User can view various cryptos and their lowest price
+   * User can add specific cryptos to a list of favorites
 * Search
-   * User can search for a specific stock
+   * User can search for a specific crypto
 * Stream
-   * User can view their favorite stocks
+   * User can view their favorite cryptos
 
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* First tab will be Current Trending Stocks
-* Second tab will be Stock Search Bar
-* Third tab will be Favorite Stock List
+* First tab will be Crypto Search Bar
+* Second tab will be Current Trending Stocks
+* Third tab will be Favorite Crypto List
 
 **Flow Navigation** (Screen to Screen)
 
