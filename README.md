@@ -66,8 +66,8 @@ In this day and age, the stock market is becoming more and more important to the
 * None as of yet
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+![20210315_233554](https://user-images.githubusercontent.com/74798094/111253798-271d3880-85ea-11eb-8212-0063ea68c5ad.jpg)
+
 
 ### [BONUS] Digital Wireframes & Mockups
 
