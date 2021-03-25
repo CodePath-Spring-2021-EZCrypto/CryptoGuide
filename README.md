@@ -1,7 +1,7 @@
-Original App Design Project - README Template
+Original App Design Project
 ===
 
-# EZStocks
+# CryptoGuide
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -11,16 +11,16 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-In this day and age, the stock market is becoming more and more important to the everyday person. Investing smartly can be costly and time-consuming, but EZStocks eliminates these worries! EZStocks is a net-cost stock comparison app, providing you with easy to comprehend information about which stock reseller provides the best price for the stocks you're searching for.
+Cryptocurrencies are emerging as an increasingly important financial asset, but they remain confusing and enigmatic to people that are outside of the market. Unlike stocks, cryptos have multiple qualities that make purchasing, trading, and selling different than stocks. There are plenty of apps that allow users to view crypto markets, but all the information regarding them is online. CryptoGuide allows users to view current trending cryptocurrencies as well as a comprehensive guide defining important terms and tactics to help the user find their way in the market.
 
 ### App Evaluation
 
 - **Category:** Finances
 - **Mobile:** This app would be just as viable on computer as it is on mobile, however the mobile format would allow for much more ease of use in day-to-day interactions with the app.
-- **Story:** Stocks are becoming more and more important, so this app would help users analyze which platform would give them the best bang for their buck when buying stocks.
+- **Story:** Cryptos are becoming more and more important, so this app would help users analyze which platform would give them the best bang for their buck when buying crypto.
 - **Market:** There is a pretty wide user base for this app, since its function is something that could be helpful to people with little/no experience to intermediate buyers.
-- **Habit:** While the app itself doesn't provide any large incentive or draw for using it round the clock, it does have the ability to draw use, simply from the fact that users will want to check the prices on it often to check whether or the lowest net price has changed.
-- **Scope:** The scope is fairly small, as the main function is aggregating data and displaying it in a easy to digest format for the user. The bulk of the work is going to be found in retrieving, parsing, and displaying this data, alongside UI and UX elements.
+- **Habit:** While the app itself doesn't provide any large incentive or draw for using it round the clock, it does have the ability to draw use, simply from the fact that users will want to check the prices on it often and learn how the market works to further their own knowledge.
+- **Scope:** The scope is fairly small, as the main functions are displaying current cryptocurrencies using an API and creating a user-friendly guide. 
 
 ## Product Spec
 
@@ -28,39 +28,34 @@ In this day and age, the stock market is becoming more and more important to the
 
 **Required Must-have Stories**
 
-* User can search for a specific stock
-* User can add stocks to a list of favorites
-* User can track their favorite stocks
-* User can view a stream of "hot" stocks that refreshes
-* User can use a navigation bar to switch views
+* User can view a list of current trending cryptos and their prices.
+* User can access a list of topics regarding cryptos and the market.
+* User can click on a topic and view further information/definitions.
 
 **Optional Nice-to-have Stories**
 
-* User can create an account and their data will persist when logging in on another phone
 * User can click on a crypto and view more detailed information about it
 
 ### 2. Screen Archetypes
 
-* Stream
-   * User can view various cryptos and their lowest price
-   * User can add specific cryptos to a list of favorites
-* Search
-   * User can search for a specific crypto
-* Stream
-   * User can view their favorite cryptos
+* Home Screen
+   * User can view various cryptos and their price
+* Guide Tab
+   * User can view a list of topics about cryptos and select one to view.
+* Topic Screen
+   * User can view further information after navigating to this screen. 
 
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* First tab will be Crypto Search Bar
-* Second tab will be Current Trending Stocks
-* Third tab will be Favorite Crypto List
+* Main Tab
+* Guide Tab
 
 **Flow Navigation** (Screen to Screen)
 
-* None as of yet
+* Guide Tab -> Detailed Topic View
 
 ## Wireframes
 ![20210315_233554](https://user-images.githubusercontent.com/74798094/111253798-271d3880-85ea-11eb-8212-0063ea68c5ad.jpg)
@@ -71,10 +66,17 @@ In this day and age, the stock market is becoming more and more important to the
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+Model: Crypto
+Property        Type        Description
+cryptoId        String      The name of the cryptocurrency
+price           double      The current price of the cryptocurrency
+
+Model: Topic
+Property        Type        Description
+topicName       String      The name of the topic in the guide.
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+### API Endpoints
+The base endpoint is: https://api.binance.us
